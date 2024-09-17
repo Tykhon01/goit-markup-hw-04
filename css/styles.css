@@ -126,6 +126,9 @@ img {
   background: #2e2f42;
   padding: 188px 0;
   background-image: url(/images/hero_image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .main-header {
   font-size: 56px;
