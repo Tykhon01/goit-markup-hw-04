@@ -288,6 +288,7 @@ img {
   gap: 24px;
 }
 .socialmedia-link-list-item {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   width: 40px;
   height: 40px;
 }
@@ -301,8 +302,12 @@ img {
   justify-content: center;
   margin-top: 8px;
 }
-.socialmedia-link:hover .socialmedia-link:focus {
+.socialmedia-link:hover, 
+.socialmedia-link:focus {
   background-color: #404bbf;
+}
+.ocialmedia-icon {
+  fill: #f4f4fd;
 }
 /* =========== /Our Team Section =========== */
 /* =========== Our Portfolio Section =========== */
